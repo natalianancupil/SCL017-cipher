@@ -52,10 +52,10 @@ cifrar.addEventListener("click", () => {
         console.log(finalWord);
         
     }
-    return finalWord;
+    //return finalWord;
 
 
  //let resultado = cifrar.cipherText(valorOffSet, data);
- //let resultadoInput = document.getElementById("resultado").innerHTML=finalWord ;
+ let resultadoInput = document.getElementById("resultado").innerHTML=finalWord ;
 
 });
