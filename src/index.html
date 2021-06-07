@@ -1,14 +1,76 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Proyecto Cipher</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body> 
+<div class="section-container">
+<section class="sect1" id="sect1">
+<header><h1>Secret Life Diary</h1></header>
+	
+	<p>¡Aquí podrás cifrar tus secretos para mantenerlos a salvo de intrusos!</p>
+  <p>Para esto usaremos el <i>Cifrado Cesar</i> que consiste en reemplazar cada 
+    letra que tu escribas por una que se encuentre unas pocisiones mas adelante 
+    (tu eliges cuánto quieres que se desplace).</p>
+
+	<button type="button" id="registrouno">Regístrate</button>
+</section>
+
+
+
+
+<section id="sect2">
+<form action="" method="post" id="formu">
+
+<div class="form">
+  <h1 class="title-register">Registro</h1>
+  <div class="group">
+<label for="">Nombre</label>
+<input type="text" name="" id="name" required><span class="barra" autocomplete= "off"></span>
+</div>
+
+    <div class="group">
+<label for="">Contraseña</label>
+<input type="password" name="" id="pass" required><span class="barra"></span>
+<br>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+  <button type="button" id="registrodos">Registrarme</button>
+</div>
+</section>
+<br>
+<br>
+
+
+
+
+<section id="sect3">
+</form>
+
+	<form class="formtres" action="#" method="get" autocomplete="off">
+
+    <div><textarea id="text" spellcheck="false"></textarea></div>
+    
+  <div><p>Nro de desplazamiento</p>
+	    <input type="number" id="offset" min=-7 max=7 cols=3/>
+    </div>
+    <br>
+    <div>
+      <button type="button" value="Cifrar" id="cifrar">Cifrar</button>
+      <button type="button" value="Descifrar" id="descifrar">Descifrar</button>
+      <button type="submit" id="guardar">Guardar</button>
+    </div>
+    <div>
+      <textarea id="resultado" class="toUpper" spellcheck="false"></textarea>
+    </div>
+  
+  </form>
+<button type="button" class="inicio" id="volver">Volver al inicio</button>
+  </section>
+ </div>
+<footer>Natalia Carolina WEB &copy; 2021</footer>	
+<script src="index.js" type="module"></script>
+</body>
 </html>

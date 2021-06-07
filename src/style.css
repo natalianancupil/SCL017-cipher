@@ -1,0 +1,92 @@
+body {
+  background-image: url(otrofondodeninas.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  
+.section-container{
+  background-color: rgba(80, 4, 90, 0.527);
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width:450px;
+  height: 500px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+h1{
+  background-color: #20b2aa;
+  font-size: 3em;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+input{
+  display: block;
+  justify-content: center;
+}
+
+
+.title-register{
+  font-size: 3em;
+}
+
+button{
+  background-color: #25a39d;
+  display: inline-block;
+  padding: 5px 14px;
+  color: whitesmoke;
+  border-radius: 4px;
+  letter-spacing: 3px;
+  font-size:12px;
+  overflow: hidden;
+  transition: 0.2s;
+  margin: 2px;
+  border: none;
+  box-shadow: 6px 6px 10px rgba(0,0,0,.3);
+  cursor: pointer;
+}
+
+button:hover{
+  background: #20b2aa;
+  box-shadow: 0 0 3px #20b2aa, 0 0 6px #20b2aa, 0 0 12px #20b2aa;
+}
+
+textarea{
+  resize: none;
+  box-sizing: padding-box;
+  overflow:hidden;
+  padding: 10px;
+  width: 250px;
+  height: 100px;
+  font-size:14px;
+  margin:8px auto;
+  border-radius:4px;
+  box-shadow:6px 6px 10px rgba(0,0,0,.3);
+  border: 1px;
+}
+
+.inicio{
+justify-content: center;
+}
+
+.formtres{
+  justify-content: center;
+}
+
+#sect2{
+  display: none;
+}
+
+#sect3{
+  display: none;
+}
