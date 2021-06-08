@@ -20,3 +20,8 @@ Dentro de este contexto, y teniendo en cuenta que el confinamiento en muchos cas
 ## 3. Proceso
 
 Para comenzar a desarrollar el proyecto se desarrollaron prototipos de baja fidelidad en papel, a mano alzada, buscando una modalidad que fuera adecuada para el usuario objetivo de este producto. Una interfaz simple con mensaje de bienvenida, un cuadro donde ingresar el texto, dos botones (cifrado y descifrado) y un segundo cuadro donde se mostrara el resultado del texto ingresado. Posteriormente, y para aumentar la funcionalidad del producto, se decide crear un formulario de registro e ingreso en donde las usuarias podran acceder con su nombre y contraseña. Siempre teniendo como foco que el resultado sea una interfaz clara, fácil de usar, intuitiva y/o con instrucciones simples.La paleta de colores e imagen de fondo busca evocar ternura y que las usuarias se sientan acogidas y seguras
+
+![Primer prototipo de baja fidelidad] (images/boceto1.jpg)
+![Segundo prototipo baja fidelidad, parte 1] (images/p1.jpg)
+![Segundo prototipo baja fidelidad, parte 2] (images/p1.jpg)
+![Segundo prototipo baja fidelidad, parte 3] (images/p1.jpg)
